@@ -1,0 +1,22 @@
+name: 提交插件
+description: 推荐一个公开的 GitHub 插件或 Skill，由维护者审核。
+title: "[插件投稿] "
+body:
+  - type: markdown
+    attributes:
+      value: 投稿和讨论公开可见。请勿填写私有仓库地址、凭据或个人信息。
+  - type: input
+    id: source
+    attributes:
+      label: 公开 GitHub 链接
+      description: 请链接到原作者的插件目录、SKILL.md 或插件清单。一条投稿只填一个插件。
+      placeholder: https://github.com/owner/repo/blob/main/skills/example/SKILL.md
+    validations:
+      required: true
+  - type: input
+    id: purpose
+    attributes:
+      label: 一句话介绍
+      description: 这个插件或 Skill 能做什么？
+    validations:
+      required: true

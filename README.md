@@ -1,2 +1,13 @@
-# agent-plugins-submissions
-Public plugin and skill submissions for Agent Plugins Hub
+# Agent Plugins Hub 插件投稿
+
+想推荐自己开发的插件，或者推荐你用过的插件？[提交插件](https://github.com/starXmate/agent-plugins-submissions/issues/new?template=plugin-submission.yml)时，贴上公开的 GitHub 链接，再用一句话介绍用途。推荐他人的插件时，请链接到原作者的仓库。
+
+请尽量链接到具体插件目录、`SKILL.md` 或插件清单。同一仓库有多个插件时，每个 Issue 只提交一个。这里的投稿和讨论公开可见，请勿填写私有仓库地址、凭据或个人信息。
+
+维护者会在 Issue 里反馈审核结果，或请你补充资料。提交后不会自动收录。
+
+## 维护者审核
+
+1. 核对原始发布者、目录、许可证或收录授权，以及安装说明和权限。资料不足时，在原 Issue 请求补充；审核期间不运行投稿中的命令或代码。
+2. 将审核范围固定到 Git commit 和插件目录，沿用 Hub 的目录收录流程。私有审核材料留在内部。
+3. 确认目录已更新后，在原 Issue 留下结果并关闭。未收录时说明原因；已收录条目的更新、纠错或下架可开新 Issue 并引用原投稿。
